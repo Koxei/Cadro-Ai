@@ -2,7 +2,7 @@ import { names, uniqueNamesGenerator } from "unique-names-generator";
 import { Action, ActionExample } from "./types.ts";
 
 /**
- * Composes a set of example conversations based on provided actions and a specified count.
+ * Composes a set of example conversations based on provided actions and a specified count
  * It randomly selects examples from the provided actions and formats them with generated names.
  * @param actionsData - An array of `Action` objects from which to draw examples.
  * @param count - The number of examples to generate.
