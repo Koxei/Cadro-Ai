@@ -7,4 +7,4 @@ cd "$(dirname "$0")"/..
 find . -type d -name "node_modules" -exec rm -rf {} + \
     -o -type f -name "pnpm-lock.yaml" -exec rm -f {} +
 
-echo "Cleanup completed."
+echo "Cleanup finished."
