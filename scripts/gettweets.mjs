@@ -8,7 +8,7 @@ const TWEETS_FILE = "tweets.json";
 
 (async () => {
     try {
-        // Create a new instance of the Scraper
+        // Create a new instance of the Scrapers
         const scraper = new Scraper();
 
         // Log in to Twitter using the configured environment variables

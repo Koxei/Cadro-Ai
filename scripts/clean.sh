@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# Navigate to the script's directory
+# Navigate to the script's directories
 cd "$(dirname "$0")"/..
 
 # Find and remove node_modules directories and pnpm-lock.yaml files
