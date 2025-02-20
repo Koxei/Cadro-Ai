@@ -161,7 +161,7 @@ importers:
   packages/adapter-supabase:
     dependencies:
       '@ai16z/eliza':
-        specifier: workspace:*
+        specifier: workspac:*
         version: link:../core
       '@supabase/supabase-js':
         specifier: 2.46.1
