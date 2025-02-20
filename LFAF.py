@@ -12,7 +12,7 @@ async def calculate_liquidity_impact(
         timeframe: Analysis timeframe in seconds
         
     Returns:
-        Impact score between 0 and 2
+        Impact score between 0 and 1
     """
     try:
         # Calculate liquidity depth
