@@ -1,3 +1,12 @@
-packages:
-    - "docs"
-    - "packages/*"
+yamlCopyMetrics:
+    - blockchain_events_processed_total
+    - transaction_analysis_duration_seconds
+    - pattern_detection_success_rate
+    - liquidity_impact_distribution
+    - rpc_node_health_status
+
+Alerts:
+    - HighLatencyAlert: >100ms processing time
+    - ErrorRateHigh: >1% error rate
+    - NodeConnectionLost: RPC connection failure
+    - PatternDetectionFailure: Algorithm errors
