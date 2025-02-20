@@ -7,7 +7,7 @@ PATTERN_DETECTION = {
     'distribution': {
         'min_transactions': 10,
         'min_unique_receivers': 5,
-        'time_window': 7200
+        'time_window': 8400
     },
     'wash_trading': {
         'min_cycle_length': 3,
