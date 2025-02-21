@@ -1,0 +1,12 @@
+Prometheus Metrics:
+    - http_request_duration_seconds
+    - http_requests_total
+    - websocket_connections_active
+    - api_error_rate
+    - endpoint_latency_histogram
+
+Performance Thresholds:
+    Request Latency: <100ms p95
+    Error Rate: <1%
+    Uptime: 99.9%
+    Concurrent Connections: 1000
