@@ -1,0 +1,7 @@
+WS_CONFIG = {
+    'ping_interval': 30,
+    'ping_timeout': 10,
+    'max_message_size': 1024 * 1024,  # 1MB
+    'compression': True,
+    'max_connections': 1000
+}
