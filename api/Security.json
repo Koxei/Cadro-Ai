@@ -1,0 +1,13 @@
+SECURITY_CONFIG = {
+    'jwt': {
+        'algorithm': 'HS256',
+        'access_token_expire_minutes': 30,
+        'refresh_token_expire_days': 7
+    },
+    'rate_limiting': {
+        'enabled': true,
+        'strategy': 'sliding_window',
+        'requests_per_minute': 60,
+        'burst_size': 10
+    }
+}
