@@ -1,0 +1,19 @@
+Kubernetes Resources:
+    api:
+        cpu: 2
+        memory: 4Gi
+        replicas: 3
+    worker:
+        cpu: 4
+        memory: 8Gi
+        replicas: 5
+    cache:
+        cpu: 2
+        memory: 4Gi
+        replicas: 3
+
+Infrastructure Requirements:
+    Load Balancer: Required
+    SSL Termination: Required
+    Connection Draining: 30s
+    Readiness Probe: /health
