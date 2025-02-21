@@ -1,0 +1,17 @@
+Error Codes:
+    400: Bad Request
+    401: Unauthorized
+    403: Forbidden
+    429: Rate Limit Exceeded
+    500: Internal Server Error
+
+Error Response Format:
+    {
+        "error": {
+            "code": "error_code",
+            "message": "Error description",
+            "details": {
+                "additional": "error details"
+            }
+        }
+    }
