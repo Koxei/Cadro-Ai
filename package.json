@@ -1,13 +1,13 @@
 {
-    "name": "eliza",
+    "name": "framework",
     "scripts": {
         "preinstall": "npx only-allow pnpm",
         "build": "bash ./scripts/build.sh",
         "build-docs": "pnpm --dir docs build",
-        "start:all": "pnpm --filter \"@ai16z/agent\" start:all --isRoot",
+        "start:all": "pnpm --filter \"frame/work\" start:all --isRoot",
         "start:service:all": "pnpm --filter \"@ajan/agent\" start:service:all --isRoot",
         "stop:service:all": "pnpm --filter \"@ajan/agent\" stop:service:all",
-        "start": "pnpm --filter \"@ajan/agent\" start --isRoot",
+        "start": "pnpm --filter \"frame/work\" start --isRoot",
         "dev": "bash ./scripts/dev.sh",
         "lint": "pnpm --dir packages/core lint && pnpm --dir packages/agent lint",
         "prettier-check": "npx prettier --check .",
