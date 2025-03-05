@@ -1,7 +1,7 @@
 PATTERN_DETECTION = {
     'stealth_accumulation': {
-        'min_transactions': 5,
-        'max_size_ratio': 0.1,
+        'min_transactions': 3,
+        'max_size_ratio': 0.2,
         'time_window': 3600
     },
     'distribution': {
