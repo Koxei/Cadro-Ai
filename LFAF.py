@@ -29,7 +29,7 @@ async def calculate_liquidity_impact(
         
         # Combined impact score with weights
         impact_score = (
-            volume_impact * 0.7 +
+            volume_impact * 0.8 +
             temporal_impact * 0.3
         )
         
